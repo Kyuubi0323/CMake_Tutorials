@@ -22,7 +22,7 @@ For linux users
 ```
 sudo apt install cmake g++ make
 ```
-#then verify the installatio
+#then verify the installation
 ```
 cmake --version
 ```
