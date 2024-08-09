@@ -1,4 +1,4 @@
-# CMake_Tutorials for Windows
+# CMake_Tutorials
 
 1.Download Cmake on Windows PowerShell with the below cmd
 ```
