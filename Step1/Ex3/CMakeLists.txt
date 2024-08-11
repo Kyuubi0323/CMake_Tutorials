@@ -1,3 +1,4 @@
+
 # Yêu cầu phiên bản tối thiểu của CMake
 cmake_minimum_required(VERSION 3.10)
 
@@ -20,3 +21,4 @@ add_executable(main main.cpp)
 # Thêm thư mục binary vào danh sách thư mục include
 target_include_directories(main PUBLIC
                            "${PROJECT_BINARY_DIR}")
+

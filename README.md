@@ -1,4 +1,4 @@
-# CMake_Tutorials for Windows
+# CMake_Tutorials
 
 1.Download Cmake on Windows PowerShell with the below cmd
 ```
@@ -14,3 +14,20 @@ cmake ..
 cmake --build .
 ```
 The output files will be stored in /build directory
+
+___________________________________________________
+
+For linux users
+#install package and dependencies on Debian or Ubuntu
+```
+sudo apt install cmake g++ make
+```
+#then verify the installation
+```
+cmake --version
+```
+#all the steps to build a simple program will be the same with Windows
+
+
+
+
