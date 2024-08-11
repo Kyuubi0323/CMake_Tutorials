@@ -1,7 +1,8 @@
-cmake_minimum_required(VERSION 3.18)
+
+cmake_minimum_required(VERSION 3.10)
     
 # here we specify that the project is C language only, so the default
 # C compiler on the system will be used
-project(Ex1 VERSION 0.0.1)
+project(CMake C)
 
 add_executable(main main.c)
