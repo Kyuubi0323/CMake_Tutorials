@@ -1,18 +1,18 @@
 
 cmake_minimum_required(VERSION 3.10)
 
-project(Tutorial)
+project(Step2)
 
 # Tạo executable từ tutorial.cpp
 add_executable(Tutorial tutorial.cpp)
 
-# Thêm thư mục con MathFunctions
+# Add Subdir 
 add_subdirectory(MathFunctions)
 
-# Liên kết thư viện MathFunctions với executable Tutorial
+# Link MathFunctions Library with Excutable Tutorial
 target_link_libraries(Tutorial PUBLIC MathFunctions)
 
-# Chỉ định thư mục chứa các header files
+# Specify the library header files location
 target_include_directories(Tutorial PUBLIC
                           "${PROJECT_BINARY_DIR}"
                           "${PROJECT_SOURCE_DIR}/MathFunctions")
