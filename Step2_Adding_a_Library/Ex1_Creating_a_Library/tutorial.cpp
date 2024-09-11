@@ -5,8 +5,8 @@ int main() {
     double inputValue ; 
     double outputValue;
     
-    std::cout<<"InputValue: ";
-	std::cin>>inputValue;
+    std::cout << "InputValue: ";
+	std::cin >> nputValue;
     
     outputValue = mathfunctions::sqrt(inputValue);
 

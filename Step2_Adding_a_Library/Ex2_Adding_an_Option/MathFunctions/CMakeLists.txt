@@ -1,8 +1,8 @@
-# Tạo thư viện MathFunctions từ các file nguồn
+# Make Math function library from all source
 add_library(MathFunctions MathFunctions.cpp mysqrt.cpp)
 
-# Thêm tùy chọn USE_MYMATH
-option(USE_MYMATH "Use tutorial provided math implementation" OFF)
+# Add USE_MYMATH option
+option(USE_MYMATH "Use tutorial provided math implementation" ON)
 
 if (USE_MYMATH)
   target_compile_definitions(MathFunctions PRIVATE "USE_MYMATH")
